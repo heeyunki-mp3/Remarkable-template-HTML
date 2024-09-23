@@ -1108,6 +1108,35 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.proj_desc:hover{
+  width:500px;
+  height: 500px;
+  background-color: black;
+  display:inline-block;
+  text-align: center;
+  padding:70px;
+  vertical-align: middle;
+
+}
+.proj_text{
+  display: none;
+}
+.proj_detail{
+  display: none;
+}
+
+.proj_desc:hover .proj_text{
+  color:white;
+  display: block;
+  padding: 30px 0px;
+  font-size: 16pt;
+}
+.proj_desc:hover .proj_detail{
+  color:white;
+  display: block;
+  text-align: justify;
+}
+
 .home-partner14 {
   align-items: flex-start;
   justify-content: center;
@@ -1171,6 +1200,10 @@
   margin-bottom: 120px;
   padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
+}
+#TACA-expl{
+  width:60%;
+  text-align: center;
 }
 .home-heading {
   gap: var(--dl-space-space-unit);
@@ -1506,6 +1539,7 @@
   .home-content2 {
     align-items: center;
     justify-content: center;
+
   }
   .home-text38 {
     width: 206px;

@@ -15,7 +15,12 @@
   align-items: center;
   flex-direction: column;
 }
-.hero7-actions {
+.course_title{
+  font-size: 16pt;
+  padding:20px 0px 10px 0px;
+}
+
+.hero7-actioas {
   gap: var(--dl-space-space-unit);
   display: flex;
   align-items: flex-start;
@@ -65,6 +70,9 @@
   align-items: center;
   flex-direction: column;
 }
+.listup{
+  padding:10px;
+}
 .features18-max-width {
   gap: var(--dl-space-space-fiveunits);
   display: flex;
@@ -85,7 +93,6 @@
   flex-direction: column;
 }
 .features18-content2 {
-  gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-self: stretch;
   align-items: flex-start;

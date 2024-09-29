@@ -539,6 +539,7 @@
 .footer-wrapper {
   display: contents;
 }
+
 .footer-footer {
   width: 100%;
   display: flex;
@@ -1111,7 +1112,6 @@
 .proj_desc:hover{
   width:500px;
   height: 500px;
-  background-color: black;
   display:inline-block;
   text-align: center;
   padding:70px;
@@ -1746,4 +1746,8 @@
     font-size: 16px;
     line-height: 21px;
   }
+}
+
+.date_title{
+  font-size:16pt;
 }

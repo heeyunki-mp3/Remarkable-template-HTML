@@ -855,3 +855,8 @@
     padding-bottom: var(--dl-space-space-twounits);
   }
 }
+
+#other_link{
+  color: blue;
+  text-decoration: underline;
+}

@@ -1116,7 +1116,12 @@
   text-align: center;
   padding:70px;
   vertical-align: middle;
-
+}
+.proj_desc_mobile:hover{
+  width:min(70vw,500px);
+  position:relative;
+  padding:3vw;
+  height: 500px;
 }
 .proj_text{
   display: none;
